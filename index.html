@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>The Art of Computing</title> 
+        <link rel="stylesheet" type="text/css" href="navbar.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <canvas id="canvas_01"></canvas>
+        <canvas id="canvas_02"></canvas>
+
+        <div id="learning-app"></div>
+
+        <div id="resources" class="band-container">
+            <div class="band-display">
+                <div class="inline-flex-container">
+                    <div class="band-title-box">
+                        <h6>recommended</h6>
+                        <div class="band-title">RESOURCES</div>
+                        <h6>from other creators</h6>
+                    </div>
+
+                    <div class="recommended-resources">
+                        <div class="band-button-container">
+                            <a class="rectangular-button-container" target="_blank" href="https://webgl2fundamentals.org/">
+                                <img alt="WebGL2 Fundamentals - Main page" class="resource-image" src="./assets/resources_01.png">
+                            </a>
+                            <div class="button-name">webgl2fundamentals.org</div>
+                        </div>
+                        <div class="band-button-container">
+                            <a class="rectangular-button-container" target="_blank" href="https://www.scratchapixel.com/">
+                                <img alt="Scratchpixel" class="resource-image" src="./assets/resources_02.png">
+                            </a>
+                            <div class="button-name">scratchapixel.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+
+            <div class ="footer-grid">
+
+                <a target="_blank" href="https://clodo.me">
+                    <div class="footer-box">
+
+                        <div style="font-family:courier; color: white;"><div style="transition: all 0s; width: max-content; padding: 2px;">design by Clodo</div></div>
+
+                        <div class="box-image" ></div>
+
+                        <div style="transition: all 0s; color: white;"><div class="clodo-web-address" style="transition: all 0s;">clodo.me</div></div>
+
+                    </div>
+                </a>
+
+                <div class="powered-by">
+                    <div style="margin-right: 1vw; min-width: fit-content;">Powered by</div>
+                    <div class="power-ups">
+                        <a target="_blank" href="https://vuejs.org/"><img alt="vuejs.org webpage" src="./assets/vuejs.png" style="background-color: rgba(245, 231, 231, 0);"></a>
+                        <a target="_blank" href="https://drawcall.github.io/Proton/"><img alt="Proton library webpage" src="./assets/protonJS.png" style="background-color: rgba(245, 231, 231, 0);"></a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/proton-engine/6.0.3/proton.min.js" integrity="sha512-FMPSbts85MlLgQX0qop/Vc43JHosqb+ZyUT6yzMwStSKQ0a8qIaUs8kleOcpfqMxIFiXEvNOoDUbHk24UFbmlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+        <script type="importmap">
+            {
+              "imports": {
+                "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+              }
+            }
+        </script>
+
+        <script src="./index.js" type="module"></script>
+        <script src="./background-animation.js"></script>
+
+ 
+    </body>   
+</html>
