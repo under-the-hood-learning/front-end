@@ -19,7 +19,7 @@ export default {
             cardExtension.style.width = '30vw';
             
             let cardCover = card.getElementsByClassName('card-cover')[0];
-            cardCover.src = `./assets/${cardID}.gif`;
+            cardCover.src = `./database/images/${cardID}.gif`;
             cardCover.style.opacity = 1;
 
             cardExtension.childNodes.forEach(element => {
@@ -44,7 +44,7 @@ export default {
             }, this.animationDuration);
             
             let cardCover = card.getElementsByClassName('card-cover')[0];
-            cardCover.src = `./assets/${cardID}.png`;
+            cardCover.src = `./database/images/${cardID}.png`;
             cardCover.style.opacity = 0.75;
 
         },
@@ -66,7 +66,7 @@ export default {
 
     computed: {
         imgURL () {
-            return `./assets/${this.card.id}.png`;
+            return `./database/images/${this.card.id}.png`;
         },
         
 

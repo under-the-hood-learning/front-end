@@ -39,6 +39,11 @@ header {
 
     padding: 0 0;
 
+    border-style: solid;
+	border-width: 0 0 0 0;
+    border-color: rgba(255, 255, 255, 0.596);
+    box-shadow: 0.3vw 0.3vw 1vw 0.2vw rgba(235, 172, 155, 0.329);
+
     cursor: default;
 }
 
@@ -99,8 +104,8 @@ header {
     font-weight: 500;
     border: 0px solid white;
     
-    padding: 5px 0;
-    margin: 4px 0;
+    padding: 0 0;
+    margin: 0 0;
 
 }
 
@@ -117,7 +122,6 @@ header {
 
     color: rgba(255, 255, 255, 0.507);
     font-weight: 500;
-    border: 0px solid white;
 
     background-image: linear-gradient(90deg, rgba(26, 26, 26, 0.884), rgba(41, 38, 38, 0.027) );
     
@@ -148,20 +152,22 @@ header {
 }
 
 .header-img {
-
+    
     height: 100%;
     border-radius: 6px;
     opacity: 0.8;
     
 }
 
-#header-top-right .header-img:hover {
-    transition: 1s all; 
-}
+#footer-img {
 
-#header-top-right .header-img:hover {
-    transform: scale(1.1);
-    cursor: pointer;
+    position: absolute;
+    left: 0;
+    width: max-content;
+
+    height: 100%;
+    opacity: 0.8;
+    
 }
 
 #page-title{
@@ -276,7 +282,7 @@ option, select{
     width: 100vw;
     height: max-content;
 
-    margin: 0vh 0 5vh 0;
+    margin: 0;
 
     display: flex;
     flex-direction: column;
@@ -297,20 +303,22 @@ option, select{
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
 
+	border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: transparent;
+
     display: inline-flex;
     justify-content: flex-start;
     align-items: flex-start;
 
-    gap: 1px;
+    gap: 0px;
 
 }
 
 .horizontal-bar:hover {
 
     width: 100%;
-    border-style: solid;
 	border-color: rgba(255, 255, 255, 0.596);
-	border-width: 1px 0 1px 0;
     box-shadow: 0.3vw 0.3vw 1vw 0.2vw rgba(235, 172, 155, 0.329);  
 }
 
@@ -323,12 +331,12 @@ option, select{
     width: max-content;
 
     padding: 0px;
-    margin: 1px;
+    margin: 0px;
 
-    /* border-style: solid;
-    border-width: 3px;
+    border-style: solid;
+    border-width: 0 0 0 2px;
     border-radius: 0px;
-    border-color: rgba(222, 222, 222, 0); */
+    border-color: rgba(222, 222, 222, 0.479);
 
     display: inline-flex;
     align-items: center;
@@ -368,7 +376,7 @@ option, select{
     height: 100%;
     width: 0;
 
-    margin: 20px 1px;
+    margin: 20px 0px;
     padding: 0px;
 
     display: flex;
@@ -491,6 +499,10 @@ li {
     justify-items: center;
     gap: 2vw;
     color: azure;
+
+    border-style: solid;
+	border-width: 1px 0 1px 0;
+    border-color: transparent;
 	
     background-image: linear-gradient(90deg, rgba(29, 29, 29, 0.733), rgba(0, 0, 0, 0));
     backdrop-filter: blur(5px);
@@ -499,14 +511,9 @@ li {
 }
 
 .band-container:hover {
-    border-style: solid;
-	border-color: rgba(255, 255, 255, 0.596);
-	border-width: 1px 0 1px 0;
-    box-shadow: 0.3vw 0.3vw 1vw 0.2vw rgba(235, 172, 155, 0.329);   
-}
 
-h6 {
-    color: rgba(255, 255, 255, 0.603);
+	border-color: rgba(255, 255, 255, 0.596);
+    box-shadow: 0.3vw 0.3vw 1vw 0.2vw rgba(235, 172, 155, 0.329);   
 }
 
 .band-display  {
@@ -519,6 +526,10 @@ h6 {
     justify-content: space-between;
     justify-items: stretch;
     color: azure;
+}
+
+h6 {
+    color: rgba(255, 255, 255, 0.603);
 }
 
 .inline-flex-container{
@@ -699,9 +710,10 @@ footer {
 	width: 100%;
     display: flex;
     align-items: center;
-	justify-content: space-evenly;
+	justify-content: flex-end;
 
 	padding: 1vw;
+    margin-right: 10vw;
 
 }
 

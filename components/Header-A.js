@@ -21,7 +21,7 @@ export default{
         
             <div id="page-bottom-left">
 
-                <p id="page-title">UNDER THE HOOD</p>
+                <a href="" ><p id="page-title">UNDER THE HOOD</p></a>
 
                 <div id="social-links-box">
 
@@ -59,10 +59,9 @@ export default{
                             <img class="dropdown-image" src="./assets/dropdown.png">
                         
                             <ul class="dropdown-list">
-                                <li><a href="" title="">Help</a></li>
-                                <li><a href="" title="">Licenses</a></li>
-                                <li><a href="" title=""></a></li>
-                                <li><a href="" title=""></a></li>
+                                <li><a href="" title="">Contact</a></li>
+                                <li><a href="" title="">Contribute</a></li>
+                                <li><a href="" title="">Settings</a></li>
                             </ul>
                         </li>
                     

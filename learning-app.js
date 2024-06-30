@@ -9,7 +9,7 @@ export default {
 
                     id : 'section-0',
 
-                    title: 'CODING SESSIONS',
+                    title: 'PRACTICE',
 
                     cards: [
 
@@ -23,10 +23,10 @@ export default {
                                 'Define color patterns',
                             ],
                             links: {
-                                repository: 'https://github.com/clodoN1109/webGL_fundamentals/tree/main/01-shapes',
+                                repository: 'https://github.com/under-the-hood-learning/exercises-online-demos/tree/main/webGL2/01_shapes',
                                 video:'https://www.youtube.com/@CodingWithClodo-tw5gg',
                                 article:'https://medium.com/',
-                                online_demo: './01-shapes/index.html',
+                                online_demo: 'https://under-the-hood-learning.github.io/exercises-online-demos/webGL2/01_shapes/index.html',
                             }
         
         
@@ -42,10 +42,10 @@ export default {
                                 'Define color patterns',
                             ],
                             links: {
-                                repository: 'https://github.com/clodoN1109/webGL_fundamentals/tree/main/02-motion',
+                                repository: 'https://github.com/under-the-hood-learning/exercises-online-demos/tree/main/webGL2/02_motion',
                                 video:'https://www.youtube.com/@CodingWithClodo-tw5gg',
                                 article:'https://medium.com/',
-                                online_demo: './02-motion/index.html',
+                                online_demo: 'https://under-the-hood-learning.github.io/exercises-online-demos/webGL2/02_motion/index.html',
                             }
         
         
@@ -61,10 +61,10 @@ export default {
                                 'Define color patterns',
                             ],
                             links: {
-                                repository: 'https://github.com/clodoN1109/webGL_fundamentals/tree/main/03-intro-to-3d',
+                                repository: 'https://github.com/under-the-hood-learning/exercises-online-demos/tree/main/webGL2/03_3D',
                                 video:'https://www.youtube.com/@CodingWithClodo-tw5gg',
                                 article:'https://medium.com/',
-                                online_demo: './03-intro-to-3d/index.html',
+                                online_demo: 'https://under-the-hood-learning.github.io/exercises-online-demos/webGL2/03_3D/index.html',
                             }
         
         
@@ -78,66 +78,21 @@ export default {
 
                     id : 'section-1',
 
-                    title: 'THEORY SESSIONS',
+                    title: 'THEORY',
 
                     cards: [
 
-                        {
-                            id: 'shapes',
-                            title: 'SHAPES AND COLORS',
-                            description: [
-                                'Draw triangles, rectangles.',
-                                'Draw regular polygons and circles.',
-                                'Set position and size with units',
-                                'Define color patterns',
-                            ],
-                            links: {
-                                repository: 'https://github.com/clodoN1109/webGL_fundamentals/tree/main/01-shapes',
-                                video:'https://www.youtube.com/@CodingWithClodo-tw5gg',
-                                article:'https://medium.com/',
-                                online_demo: './01-shapes/index.html',
-                            }
-        
-        
-                        },
-        
-                        {
-                            id: 'motion',
-                            title: 'MOTION',
-                            description: [
-                                'Draw triangles, rectangles.',
-                                'Draw regular polygons and circles.',
-                                'Set position and size with units',
-                                'Define color patterns',
-                            ],
-                            links: {
-                                repository: 'https://github.com/clodoN1109/webGL_fundamentals/tree/main/02-motion',
-                                video:'https://www.youtube.com/@CodingWithClodo-tw5gg',
-                                article:'https://medium.com/',
-                                online_demo: './02-motion/index.html',
-                            }
-        
-        
-                        },
-                        
-                        {
-                            id: '3D',
-                            title: '3D PRINCIPLES',
-                            description: [
-                                'Draw triangles, rectangles.',
-                                'Draw regular polygons and circles.',
-                                'Set position and size with units',
-                                'Define color patterns',
-                            ],
-                            links: {
-                                repository: 'https://github.com/clodoN1109/webGL_fundamentals/tree/main/03-intro-to-3d',
-                                video:'https://www.youtube.com/@CodingWithClodo-tw5gg',
-                                article:'https://medium.com/',
-                                online_demo: './03-intro-to-3d/index.html',
-                            }
-        
-        
-                        },
+                    ]
+                   
+                },
+
+                history_section : {
+
+                    id : 'section-1',
+
+                    title: 'HISTORY',
+
+                    cards: [
 
                     ]
                    
@@ -157,6 +112,9 @@ export default {
 
         <learningSection v-for="section in learning_sections" :section="section"></learningSection>
 
+        <recommendations></recommendations>
+
+        <footerA></footerA>
         `
 
 }
