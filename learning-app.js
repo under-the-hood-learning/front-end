@@ -23,10 +23,10 @@ export default {
                                 'Define color patterns',
                             ],
                             links: {
-                                repository: 'https://github.com/under-the-hood-learning/exercises-online-demos/tree/main/webGL2/01_shapes',
+                                repository: 'https://github.com/under-the-hood-learning/web-labs/tree/main/webGL2/01_shapes',
                                 video:'https://www.youtube.com/@CodingWithClodo-tw5gg',
                                 article:'https://medium.com/',
-                                online_demo: 'https://under-the-hood-learning.github.io/exercises-online-demos/webGL2/01_shapes/index.html',
+                                online_demo: 'https://under-the-hood-learning.github.io/web-labs/webGL2/01_shapes/index.html',
                             }
         
         
@@ -42,10 +42,10 @@ export default {
                                 'Define color patterns',
                             ],
                             links: {
-                                repository: 'https://github.com/under-the-hood-learning/exercises-online-demos/tree/main/webGL2/02_motion',
+                                repository: 'https://github.com/under-the-hood-learning/web-labs/tree/main/webGL2/02_motion',
                                 video:'https://www.youtube.com/@CodingWithClodo-tw5gg',
                                 article:'https://medium.com/',
-                                online_demo: 'https://under-the-hood-learning.github.io/exercises-online-demos/webGL2/02_motion/index.html',
+                                online_demo: 'https://under-the-hood-learning.github.io/web-labs/webGL2/02_motion/index.html',
                             }
         
         
@@ -61,10 +61,10 @@ export default {
                                 'Define color patterns',
                             ],
                             links: {
-                                repository: 'https://github.com/under-the-hood-learning/exercises-online-demos/tree/main/webGL2/03_3D',
+                                repository: 'https://github.com/under-the-hood-learning/web-labs/tree/main/webGL2/03_3D',
                                 video:'https://www.youtube.com/@CodingWithClodo-tw5gg',
                                 article:'https://medium.com/',
-                                online_demo: 'https://under-the-hood-learning.github.io/exercises-online-demos/webGL2/03_3D/index.html',
+                                online_demo: 'https://under-the-hood-learning.github.io/web-labs/webGL2/03_3D/index.html',
                             }
         
         
